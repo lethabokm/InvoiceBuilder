@@ -2,3 +2,13 @@
 InvoiceBuilderAPI/Data/*.db
 InvoiceBuilderAPI/Data/*.db-shm
 InvoiceBuilderAPI/Data/*.db-wal
+
+# .NET build outputs and IDE state
+**/bin/
+**/obj/
+**/.vs/
+*.user
+
+# Frontend build/dependency outputs
+**/node_modules/
+**/dist/

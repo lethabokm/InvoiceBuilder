@@ -1,0 +1,6 @@
+@InvoiceBuilderAPI_HostAddress = http://localhost:5067
+
+GET {{InvoiceBuilderAPI_HostAddress}}/api/customers?page=1&pageSize=10
+Accept: application/json
+
+###

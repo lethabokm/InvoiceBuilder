@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="InvoiceBuilderAPI.csproj" />
+  <Project Path="InvoiceBuilderAPI.IntegrationTests\InvoiceBuilderAPI.IntegrationTests.csproj" />
+</Solution>
