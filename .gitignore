@@ -1,0 +1,4 @@
+# SQLite runtime data (backend local environment)
+InvoiceBuilderAPI/Data/*.db
+InvoiceBuilderAPI/Data/*.db-shm
+InvoiceBuilderAPI/Data/*.db-wal
