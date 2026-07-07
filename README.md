@@ -59,8 +59,18 @@ Useful backend URLs:
 
 In a second terminal:
 
+Create a local env file first:
+
+- Create Frontend/invoiceApp/.env.local
+- Add this line:
+
+```text
+VITE_API_BASE_URL=https://localhost:7268/
+```
+
+Then install and start the app:
+
 ```powershell
-cd Frontend/invoiceApp
 npm install
 npm run dev
 ```
@@ -145,6 +155,7 @@ Frontend list pages request the active page/pageSize from the API and use return
 ### Frontend cannot call API (CORS)
 
 - Ensure frontend is running on allowed origin (default http://localhost:5173).
+- Ensure Frontend/invoiceApp/.env.local exists and contains VITE_API_BASE_URL=https://localhost:7268/.
 - Check InvoiceBuilderAPI/appsettings.json -> Cors.AllowedOrigins.
 
 ### Migration commands fail
